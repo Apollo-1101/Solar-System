@@ -1,0 +1,127 @@
+body {
+  background-color: #520800;
+  color: #ffa07a;
+}
+
+header a {
+  color: #ffa07a;
+}
+
+header a:hover {
+  color: white;
+}
+
+.header-right input[type="text"] {
+  border: 1px solid #ffa07a;
+}
+
+ul {
+  background-color: #a55332;
+}
+.active {
+  background-color: #7a2e10;
+  color: #ffa07a;
+}
+
+li a:hover:not(.active) {
+  background-color: #7a2e10;
+  color: #ffa07a;
+}
+
+.dropdown .dropbtn {
+  color: #ffffff;
+  background-color: #a55332;
+}
+
+.dropdown-content {
+  background-color: #a55332;
+}
+
+footer {
+  background-color: #a55332;
+}
+
+.footerNav {
+  color: #ffa07a;
+}
+
+#search {
+  float: right;
+  background-color: inherit;
+  padding: 2em;
+  margin-top: 0.3em;
+  background-image: url("../images/search.png");
+  background-size: cover;
+  border: none;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+main {
+  max-width: 90%;
+  margin: auto;
+  display: block;
+}
+.parallax-g1 {
+  background-image: url("../images/g1.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-mars {
+  background-image: url("../images/MarsPortrait.jpg");
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-border {
+  background-color: #520800;
+  color: #ffa07a;
+  padding: 18px;
+  font-size: 44px;
+  letter-spacing: 10px;
+}
+
+.parallax-position {
+  position: absolute;
+  left: 0;
+  top: 38%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.intro {
+  font-size: 22px;
+  background-color: #520800;
+  color: #ffa07a;
+  padding: 30px 10px;
+  margin: 0;
+}
+
+span:hover {
+  border: 3px solid #000;
+  background-color: #ffa07a;
+  color: #000;
+}
+
+@media screen and (max-width: 650px) {
+  .parallax-position {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+}
